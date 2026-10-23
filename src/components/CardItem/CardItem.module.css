@@ -1,0 +1,106 @@
+.title {
+  font-size: 25px;
+  margin-bottom: 10px;
+}
+.card {
+  padding: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  border-radius: 10px;
+  background-color: rgba(38, 36, 44, 0.555);
+  max-width: 400px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+@media (max-width: 600px) {
+  .card {
+    max-width: 290px;
+  }
+}
+.price {
+  color: #c084fc;
+}
+.brand {
+  color: var(--accent-border);
+}
+.addToBasketButton {
+  padding: 7px;
+  width: 200px;
+  border: 1px solid #56846a;
+  border-radius: 7px;
+  background: transparent;
+  color: #a9dfb8;
+  font-size: 15px;
+  cursor: pointer;
+  transition:
+    background-color 0.2s ease,
+    color 0.2s ease;
+  margin: 0 auto;
+}
+
+.addToBasketButton:hover {
+  background-color: #3c684d;
+  color: #fff;
+}
+
+.updateButton {
+  padding: 7px;
+  width: 200px;
+  border: 1px solid #514b82;
+  border-radius: 7px;
+  background: transparent;
+  color: #b5a6ff;
+  font-size: 15px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  margin: 0 auto;
+}
+
+.deleteButton:hover {
+  background-color: #824b4b;
+  color: #ffffff;
+  box-shadow: 0 0 8px rgba(130, 75, 75, 0.4);
+}
+.deleteButton {
+  padding: 7px;
+  width: 200px;
+  border: 1px solid #824b4b;
+  border-radius: 7px;
+  background: transparent;
+  color: #ffa6a6;
+  font-size: 15px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  margin: 0 auto;
+}
+
+.removeFromBasketButton {
+  padding: 7px;
+  width: 200px;
+  border: 1px solid #824b4b;
+  border-radius: 7px;
+  background: transparent;
+  color: #ffa6a6;
+  font-size: 15px;
+  cursor: pointer;
+  transition:
+    background-color 0.2s ease,
+    color 0.2s ease;
+  margin: 0 auto;
+}
+
+.removeFromBasketButton:hover {
+  background-color: #824b4b;
+  color: #fff;
+}
+
+.removeFromBasketButton:focus-visible {
+  outline: 2px solid #ffa6a6;
+  outline-offset: 2px;
+}
+
+.updateButton:hover {
+  background-color: #514b82;
+  color: #fff;
+  box-shadow: 0 0 8px rgba(81, 75, 130, 0.4);
+}
